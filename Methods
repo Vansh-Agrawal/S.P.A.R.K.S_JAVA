@@ -1,0 +1,16 @@
+package vansh;
+
+public class method {
+static void mymethod() {
+	System.out.println("spark initiator-:coding club for all");
+	}
+public static void main(String args[]) {
+	mymethod();
+	mymethod();
+
+	
+
+	
+	}
+}
+
