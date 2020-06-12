@@ -1,0 +1,26 @@
+package vansh;
+import java.util.*;
+public class checkprime {
+	
+	public static void main(String[] args)
+    {        
+        Scanner sc=new Scanner (System.in);
+        System.out.println("Enter a number:");
+        int n=sc.nextInt();
+        System.out.println(CheckPrime(n));
+    }
+
+    public static boolean CheckPrime(int number)
+    {
+        for(int i = 2; i < number; i++)
+	{
+	    if(number % i == 0)
+            {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+}
+
