@@ -1,0 +1,14 @@
+package vansh;
+
+public class method3 {
+	static void mymethod(String fname, int age) {
+		System.out.println(fname + " is " +age);
+		}
+	public static void main(String args[]) {
+		mymethod("vansh", 18);
+		mymethod("jaysh", 18);
+		mymethod("Shiv", 20);
+		
+	}
+
+}
