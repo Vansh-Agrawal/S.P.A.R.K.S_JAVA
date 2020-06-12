@@ -1,0 +1,37 @@
+package vansh;
+import java.util.*;
+public class Solution1 {
+ public static void main(String[] args){
+	    Scanner s = new Scanner(System.in);
+	    int n=s.nextInt();
+	    int[] z = new int[n];
+	    int pos = 0;
+	    int neg = 0;
+	    int odd = 0;
+	    int even = 0;
+	    int zero = 0;
+	    for(int i = 0;i<z.length;i++){
+	      z[i] = s.nextInt();
+	      if(z[i]>0){
+	        pos++;
+	      }
+	      else if(z[i]<0){
+	        neg++;
+	      }
+	      else{
+	        zero++;
+	      }
+	      if(z[i]%2==0){
+	        even++;
+	      }
+	      else{
+	        odd++;
+	      }
+	    }
+	    System.out.println(pos);
+	    System.out.println(neg);
+	    System.out.println(odd);
+	    System.out.println(even);
+	    System.out.println(zero);
+	  }
+}
