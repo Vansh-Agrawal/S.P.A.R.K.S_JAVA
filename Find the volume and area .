@@ -1,0 +1,19 @@
+package vansh;
+import java.util.*;
+public class volumearea {
+	public static void VolArea(int l){
+		int area, vol;
+		area = l*l;
+		vol = l*l*l;
+	    System.out.println("Area of Square is: "+area);
+	    System.out.println("Volume of Cube is: "+vol);
+	  }
+
+	  public static void main(String[] args) {
+		  Scanner sc = new Scanner(System.in);
+		  System.out.println("Enter the length:");
+		  int length = sc.nextInt();
+		  VolArea(length);
+	  }
+}
+
